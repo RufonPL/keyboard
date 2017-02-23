@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*STYLE RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*****************************************************/
+.keyboard{
+  padding: 25px 15px;
+  background-color: #0F0F0F;
+  border: solid 10px #000;
+  border-radius: 15px;
+  display: block;
+  width: 1000px;
+  margin: 30px auto;
+  color: white;
+}
+
+.keyboard .row {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.keyboard .button {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  margin: 12px 0px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #262626;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 12px #999;
+}
+
+.keyboard .button:hover {background-color: #404040}
+
+.keyboard .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(7px);
+}
+
+.keyboard .backspace {
+  width: 160px;
+}
+.keyboard .enter {
+  width: 155px;
+}
+.keyboard .tab {
+  width: 90px;
+}
+.keyboard .underbackspace{
+  width: 120px;
+}
+
+.keyboard .capslock {
+  width: 110px;
+}
+.keyboard .shift1 {
+  width: 140px;
+}
+.keyboard .shift2 {
+  width: 180px;
+}
